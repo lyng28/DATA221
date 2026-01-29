@@ -1,7 +1,7 @@
 # Safe function Application
 
 def power (x, y):
-    return x ** y
+    return x ** y # Compute x^y
 
 pairs = [[5, 2], [3, -1], [4, 3], [2, 0]]
 result = []

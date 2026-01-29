@@ -1,6 +1,7 @@
 # Nested Dictionaries from Strings
 
 def Nested_Dictionaries_from_Strings(list_of_strings):
+# Build the nested dictionary
     nested_dictionary = {}
     for word in list_of_strings:
         word_length = len(word)

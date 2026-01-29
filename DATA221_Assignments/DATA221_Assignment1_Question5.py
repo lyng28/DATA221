@@ -2,10 +2,13 @@
 
 import math
 def circleAreaCoverage(radiusOfCircle1, radiusOfCircle2):
+# Validate the input type
     if type(radiusOfCircle1) != int or type(radiusOfCircle2) != int:
         return "Invalid input, both radii must be integers."
     if radiusOfCircle1 <= 0 or radiusOfCircle2 <= 0:
         return "Invalid input, both radii must be positive."
+
+# Compute the radius of 2 circles and compare the 2 circles
     area1 = math.pi * radiusOfCircle1 ** 2
     area2 = math.pi * radiusOfCircle2 ** 2
     if area1 >= area2:
